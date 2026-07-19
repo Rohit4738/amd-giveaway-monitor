@@ -11,7 +11,7 @@ WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK","https://discord.com/api/webhooks/1528
 
 # Optional role ping. Add this in GitHub Secrets if you want.
 # Example value: <@&123456789012345678>
-ROLE_PING = os.getenv("ROLE_PING", "").strip()
+ROLE_PING = os.getenv("ROLE_PING", "@&1528322259465404487").strip()
 
 AMD_LOGO = "https://files.catbox.moe/pewooo.png"
 FOOTER_TEXT = "Justice's AMD Gaming Informer"
