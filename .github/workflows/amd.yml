@@ -3,7 +3,7 @@ name: AMD Gaming Giveaway Notifier
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: write
