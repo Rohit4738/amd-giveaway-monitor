@@ -42,4 +42,3 @@ jobs:
 
           git pull --rebase
           git push
-Does this work?
