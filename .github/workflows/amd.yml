@@ -1,29 +1,45 @@
-name: AMD Giveaway Monitor
+name: AMD Gaming Giveaway Notifier
 
 on:
-  schedule:
-    - cron: "*/5 * * * *"   # Every 5 minutes
   workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
 
 jobs:
-  monitor:
+  check-amd:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-          
-      - name: Show files
+          python-version: "3.11"
+
+      - name: Install requirements
         run: |
-          pwd
-          ls -la
+          pip install -r requirements.txt
 
-      - run: pip install -r requirements.txt
-
-      - run: python main.py
+      - name: Run AMD notifier
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           ROLE_PING: ${{ secrets.ROLE_PING }}
+        run: python main.py
+
+      - name: Save state file
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add amd_state.json
+
+          git commit -m "Update AMD giveaway state" || echo "No changes"
+
+          git pull --rebase
+          git push
+Does this work?
