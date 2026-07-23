@@ -59,8 +59,6 @@ def should_post(item, old):
     status = str(item.get("status", "")).lower()
 
     if not old:
-        # Only announce brand-new promos if they actually have keys right now,
-        # otherwise every fresh listing pings the role for nothing.
         if status == "active" and keys > 0:
             return True, "new"
         return False, None
@@ -68,15 +66,12 @@ def should_post(item, old):
     old_keys = int(old.get("keysAvailable") or 0)
     old_status = str(old.get("status", "")).lower()
 
-    # Restock: 0 keys -> more than 0 keys
     if old_keys <= 0 and keys > 0 and status == "active":
         return True, "restock"
 
-    # Out of keys: had keys -> now 0
     if old_keys > 0 and keys <= 0 and status == "active":
         return True, "out_of_keys"
 
-    # Ended / status changed away from active
     if old_status != status and status != "active":
         return True, "ended"
 
