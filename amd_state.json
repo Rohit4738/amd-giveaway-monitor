@@ -100,14 +100,14 @@
   "42ad924d-9743-4978-b034-d87ad0ddfc05": {
     "title": "GOALS Kit Giveaway",
     "status": "active",
-    "keysAvailable": 7040,
+    "keysAvailable": 7036,
     "updatedAt": 1783362842,
     "slug": "goals-kit-giveaway"
   },
   "29f5810b-72df-4e71-8cd4-b6cda3dd6c77": {
     "title": "Mongil: Star Dive Giveaway",
     "status": "active",
-    "keysAvailable": 2130,
+    "keysAvailable": 2123,
     "updatedAt": 1783523611,
     "slug": "mongil-star-dive-giveaway"
   },
@@ -131,5 +131,12 @@
     "keysAvailable": 0,
     "updatedAt": 1785354716,
     "slug": "biped-2-giveaway"
+  },
+  "d0e2c9e9-d56e-4d27-894e-ac39fdfcc3c0": {
+    "title": "Midnight Moments Game Key Giveaway",
+    "status": "active",
+    "keysAvailable": 0,
+    "updatedAt": 1785427165,
+    "slug": "midnight-moments-game-key-giveaway"
   }
 }
