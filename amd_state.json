@@ -100,7 +100,7 @@
   "42ad924d-9743-4978-b034-d87ad0ddfc05": {
     "title": "GOALS Kit Giveaway",
     "status": "active",
-    "keysAvailable": 6673,
+    "keysAvailable": 6672,
     "updatedAt": 1783362842,
     "slug": "goals-kit-giveaway"
   },
@@ -138,5 +138,12 @@
     "keysAvailable": 0,
     "updatedAt": 1785940781,
     "slug": "midnight-moments-game-key-giveaway"
+  },
+  "08358d70-326c-4d31-b3c0-8374581bd1b5": {
+    "title": "Nested Lands Giveaway",
+    "status": "active",
+    "keysAvailable": 0,
+    "updatedAt": 1787068949,
+    "slug": "nested-lands-giveaway"
   }
 }
