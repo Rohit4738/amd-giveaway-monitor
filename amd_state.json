@@ -65,7 +65,7 @@
   "2daf90c5-a96c-4621-8222-17050e47e375": {
     "title": "World of Warships - Naval Supplies Giveaway",
     "status": "active",
-    "keysAvailable": 8663,
+    "keysAvailable": 8662,
     "updatedAt": 1786567123,
     "slug": "world-of-warships-naval-supplies-giveaway-2"
   },
@@ -107,8 +107,8 @@
   "29f5810b-72df-4e71-8cd4-b6cda3dd6c77": {
     "title": "Mongil: Star Dive Giveaway",
     "status": "active",
-    "keysAvailable": 2034,
-    "updatedAt": 1783523611,
+    "keysAvailable": 0,
+    "updatedAt": 1788189258,
     "slug": "mongil-star-dive-giveaway"
   },
   "070947d9-9a2b-49e4-8d3d-aec19e5bdedc": {
@@ -145,5 +145,19 @@
     "keysAvailable": 0,
     "updatedAt": 1787068949,
     "slug": "nested-lands-giveaway"
+  },
+  "a7cfde1f-40da-410c-8021-add918d1e04b": {
+    "title": "iRacing 3-Month Sub Giveaway",
+    "status": "active",
+    "keysAvailable": 0,
+    "updatedAt": 1788278365,
+    "slug": "iracing-giveaway"
+  },
+  "95fdc6be-3f91-4ebb-a87d-d119e9ef5354": {
+    "title": "Dwarven Realms Giveaway",
+    "status": "active",
+    "keysAvailable": 0,
+    "updatedAt": 1787587101,
+    "slug": "dwarven-realms-giveaway"
   }
 }
