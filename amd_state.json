@@ -65,7 +65,7 @@
   "2daf90c5-a96c-4621-8222-17050e47e375": {
     "title": "World of Warships - Naval Supplies Giveaway",
     "status": "active",
-    "keysAvailable": 8603,
+    "keysAvailable": 8599,
     "updatedAt": 1786567123,
     "slug": "world-of-warships-naval-supplies-giveaway-2"
   },
@@ -100,7 +100,7 @@
   "42ad924d-9743-4978-b034-d87ad0ddfc05": {
     "title": "GOALS Kit Giveaway",
     "status": "active",
-    "keysAvailable": 6237,
+    "keysAvailable": 6231,
     "updatedAt": 1783362842,
     "slug": "goals-kit-giveaway"
   },
@@ -159,5 +159,12 @@
     "keysAvailable": 0,
     "updatedAt": 1788966070,
     "slug": "dwarven-realms-giveaway"
+  },
+  "33258e22-5e86-4340-887d-02a125194277": {
+    "title": "How 2 Escape: Lost Submarine Giveaway",
+    "status": "active",
+    "keysAvailable": 0,
+    "updatedAt": 1789055804,
+    "slug": "how-2-escape-lost-submarine-giveaway"
   }
 }
