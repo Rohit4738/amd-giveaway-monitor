@@ -65,7 +65,7 @@
   "2daf90c5-a96c-4621-8222-17050e47e375": {
     "title": "World of Warships - Naval Supplies Giveaway",
     "status": "active",
-    "keysAvailable": 8220,
+    "keysAvailable": 8202,
     "updatedAt": 1786567123,
     "slug": "world-of-warships-naval-supplies-giveaway-2"
   },
@@ -100,7 +100,7 @@
   "42ad924d-9743-4978-b034-d87ad0ddfc05": {
     "title": "GOALS Kit Giveaway",
     "status": "active",
-    "keysAvailable": 6020,
+    "keysAvailable": 6008,
     "updatedAt": 1783362842,
     "slug": "goals-kit-giveaway"
   },
@@ -173,5 +173,12 @@
     "keysAvailable": 0,
     "updatedAt": 1789575307,
     "slug": "deadswitch-combat"
+  },
+  "d6982a5d-7b5b-4714-bbf0-51bc61501cc0": {
+    "title": "Killing Floor 3 Game Key Giveaway",
+    "status": "active",
+    "keysAvailable": 0,
+    "updatedAt": 1791483021,
+    "slug": "kf3"
   }
 }
